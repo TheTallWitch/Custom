@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BoundedView">
+        <attr name="bounded_width" format="dimension" />
+        <attr name="bounded_height" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="CircleProgress">
+        <attr name="progressColor" format="color" />
+        <attr name="bgColor" format="color" />
+        <attr name="textColor" format="color" />
+        <attr name="margin" format="dimension" />
+        <attr name="progressThickness" format="dimension" />
+        <attr name="backgroundThickness" format="dimension" />
+        <attr name="fontName" format="string" />
+        <attr name="textType" format="enum">
+            <enum name="number" value="0"/>
+            <enum name="percentage" value="1"/>
+            <enum name="time" value="2"/>
+            <enum name="clock" value="3"/>
+            <enum name="text" value="4"/>
+        </attr>
+        <attr name="sizeBase" format="enum">
+            <enum name="widthBase" value="0"/>
+            <enum name="heightBase" value="1"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="PlayerXView">
+        <attr name="playerXColor" format="color"/>
+        <attr name="playerXStroke" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="PlayerOView">
+        <attr name="playerOColor" format="color"/>
+        <attr name="playerOStroke" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="OutlineTextView" >
+        <attr name="outlineColor" format="color" />
+        <attr name="outlineWidth" format="dimension" />
+        <attr name="outlineFont" format="string" />
+    </declare-styleable>
+    <declare-styleable name="OutlineAutoTextView" >
+        <attr name="outlineAutoColor" format="color" />
+        <attr name="outlineAutoWidth" format="dimension" />
+        <attr name="outlineAutoFont" format="string" />
+    </declare-styleable>
+    <declare-styleable name="CursorWheelLayout">
+        <attr name="wheelSelectedAngle" format="float"/>
+        <attr name="wheelPaddingRadio" format="float"/>
+        <attr name="wheelCenterRadio" format="float"/>
+        <attr name="wheelItemRadio" format="float"/>
+        <attr name="wheelFlingValue" format="integer"/>
+        <attr name="wheelCursorHeight" format="dimension"/>
+        <attr name="wheelCursorColor" format="color"/>
+        <attr name="wheelBackgroundColor" format="color"/>
+        <attr name="wheelItemRotateMode" format="enum">
+            <enum name="none" value="0"/>
+            <enum name="inward" value="1"/>
+            <enum name="outward" value="2"/>
+        </attr>
+        <attr name="wheelGuideLineWidth" format="dimension"/>
+        <attr name="wheelGuideLineColor" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="SquareTextView" >
+        <attr name="textFont" format="string" />
+    </declare-styleable>
+</resources>
